@@ -17,6 +17,21 @@ int main() {
         return 1;
     }
 
+    // 2^3 = 8
+    if (potencia(2, 3) != 8) {
+        return 1;
+    }
+
+    // Qualquer numero elevado a 0 eh 1
+    if (potencia(5, 0) != 1) {
+        return 1;
+    }
+
+    // 10^1 = 10
+    if (potencia(10, 1) != 10) {
+        return 1;
+    }
+    
     // Se todos passarem, retorna 0
     return 0;
 }
